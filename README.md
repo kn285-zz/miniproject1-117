@@ -9,4 +9,4 @@ information on Git, Docker, automated testing, GitFlow, and continuous integrati
 
 *Links*  
 * [Git Tutorial](/git.md)  
-* [Basic Linux Commands](/linux.d)
+* [Basic Linux Commands](/linux.md)
