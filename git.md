@@ -66,7 +66,7 @@ Push to (local/Remote)
 
 Merging Branches to Master and Deleting
 --------------------------
-**Branch**: Command on git that creates a branch
+**Branch**: Command on git that creates a branch  
 **Merge**: Command on git that merges two branches into one separate branch
 
 **Creating a Local Branch:**
