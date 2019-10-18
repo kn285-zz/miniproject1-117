@@ -1,22 +1,22 @@
-#*Basic Linux Commands*
+#**Basic Linux Commands**
 
 *Home Directory*
 
-*Tildo*  
+**Tildo**  
 Character: ~  
 The Tildo is a character used that refers to the current user's home directory.
 
-*CD*  
+**CD**  
 The "CD" command stands for "change directory." As the name suggests it used to change the directory. If the commands has no argument then it take you to   the home directory.
 
-*mkdir*
+**mkdir**
 
-*cp*
+**cp**
 
-*pwd*
+**pwd**
 
-*mv*
+**mv**
 
-*rm*
+**rm**
 
-*history*
+**history**
