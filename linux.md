@@ -2,10 +2,9 @@
 
 *Home Directory*
 
-*~ (Tildo)*
-
-
-
+*Tildo*
+Character: ~
+The Tildo is a character used that refers to the current user's home directory.
 
 *CD*
 
@@ -15,7 +14,7 @@
 
 *pwd*
 
-*mw*
+*mv*
 
 *rm*
 
