@@ -1,6 +1,8 @@
 # **Vim and Linux**
 
 ### *Vim Editor*
+-------------------------
+
 #### Insert Mode
 The shortcut is: "i"
 The Insert mode lets you insert text in a document.  (insert text where the cursor is) or "o" (insert text at the beginning of the following line).
@@ -34,7 +36,7 @@ In case you want to quit vim without saving the file, enter:
 ```
 :q![return]
 ```
-#### Vim Usage Example
+#### Vim Command Referenece
 **save:**:w  
 **save and exit:** :wq  
 **exit:** :q  
@@ -47,6 +49,8 @@ In case you want to quit vim without saving the file, enter:
 **cut a line:** dd  
 
 ### *Basic Linux Commands*
+-------------------------------
+
 #### Home Directory
 #### Tildo
 Character: ~  
