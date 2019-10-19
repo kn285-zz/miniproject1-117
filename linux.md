@@ -19,6 +19,8 @@ The visual mode permits the user to select the text as you would do with a mouse
 Command begins with the symbol ":"
 When you are in another mod you can use the escape key (sometimes you'll need to hit it twice) to come back to command mod at any time.
 
+------------------
+
 #### Vim Usage Example
 
 Example, editing of the file /etc/hosts
@@ -73,13 +75,21 @@ The "CD" command stands for "change directory." As the name suggests it used to 
 
 "mkdir" command in Linux allows the user to create directories (also referred to as folders in some operating systems ). This command can create multiple directories at once as well as set the permissions for the directories. 
 ###### *Syntax:* 
-
-mkdir [options...] [directories ...]
-
-#### cp
-
-#### pwd
-
+```
+$ mkdir [options...] [directories ...]
+$ mkdir NewDirectory
+```
+#### Copying Files (cp)
+cp refers to copy. You can make a copy of a file or directory using cp command. -r use it for folders to copy internal recursive files, otherwise folder copy will not work.
+```
+$ cp welcome.txt welcome_copy.txt
+```
+#### Print Working Directory (PWD)
+It refers to print working directory. It prints the absolute path of directory where you are in right now.
+```
+$ pwd
+/home/root
+```
 #### mv
 
 #### rm
