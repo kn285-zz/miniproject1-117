@@ -91,14 +91,41 @@ $ pwd
 /home/root
 ```
 #### mv
-The mv command is used to move files. You can use absolute or relative paths when moving files. You can also change the name of the destination file. You can either move the file from one directory to another or you can move the file AND change the name.
+The mv command is used to move files. You can use absolute or relative paths when moving files.  
+
+Moving the file from one directory to another
+```
+$ mv /home/vagrant/file01 /tmp/file01
+```
+Moving the file AND changing the name.
+```
+$ cp /home/vagrant/file01 /tmp/newfile
+```
+
+
 
 #### rm
 
-The rm command is used to delete files and directories. You can recursively remove all the files in a directory using "-r" option or you can use the "-f" option to skip a confirmation prompt when removing the file.
-DISCLAIMER: When using "-r" and "-f" it remove the file without an notice and it cannot be undone.
+The rm command is used to delete files and directories.  
 
+Use this to delete a file.
+```
+$ rm /tmp/file01
+```
+
+To recursively remove all files in a directory, use the -r option.
+```
+rm -r /tmp/dir01
+```
+To skip the confirmation prompt for removing a file, use the -f option.
+```
+ rm -f /tmp/file01
+```
 
 #### history
 
 The history command shows the last 500 commands that you've entered. you can also run "history -c" to clear the history buffer. If you want to rerun the last command in your history you can use the "!!" command. To run any other command you can run "!N" where "N" is the number of the command from the history command output. The command history for a user is located inside a file named ".bash_history" within the user's home directory.
+
+```
+$ history
+```
