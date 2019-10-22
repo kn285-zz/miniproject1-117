@@ -100,3 +100,5 @@ DISCLAIMER: When using "-r" and "-f" it remove the file without an notice and it
 
 
 #### history
+
+The history command shows the last 500 commands that you've entered. you can also run "history -c" to clear the history buffer. If you want to rerun the last command in your history you can use the "!!" command. To run any other command you can run "!N" where "N" is the number of the command from the history command output. The command history for a user is located inside a file named ".bash_history" within the user's home directory.
