@@ -91,7 +91,12 @@ $ pwd
 /home/root
 ```
 #### mv
-The mv command is used to move files. You can use absolute or relative paths when moving files. You can also change the name of the destination file.
+The mv command is used to move files. You can use absolute or relative paths when moving files. You can also change the name of the destination file. You can either move the file from one directory to another or you can move the file AND change the name.
+
 #### rm
+
+The rm command is used to delete files and directories. You can recursively remove all the files in a directory using "-r" option or you can use the "-f" option to skip a confirmation prompt when removing the file.
+DISCLAIMER: When using "-r" and "-f" it remove the file without an notice and it cannot be undone.
+
 
 #### history
