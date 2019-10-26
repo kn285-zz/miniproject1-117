@@ -75,7 +75,15 @@ Merging Branches to Master and Deleting
 3. List local branches: $ git branch
 
 **Merging Branches**
-
+1. Switch to your production branch.
+2. Create a branch to add the hotfix.
+3. After it’s tested, merge the hotfix branch, and push to production.
+4. Switch back to your original user story and continue working.
+```
+$ git branch iss53
+$ git checkout iss53
+$ git checkout -b iss53
+```
 **Delete a Local Branch:**
 1. List branches merged in so far: $ git branch --merged
 2. Delete branch locally: $ git branch -d BRANCH_NAME
