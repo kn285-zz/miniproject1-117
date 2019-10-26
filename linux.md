@@ -91,6 +91,7 @@ $ pwd
 /home/root
 ```
 #### mv
+The mv command is used to move files. You can use absolute or relative paths when moving files. You can also change the name of the destination file.
 
 #### rm
 
