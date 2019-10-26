@@ -73,8 +73,8 @@ The "CD" command stands for "change directory." As the name suggests it used to 
 
 #### mkdir
 
-"mkdir" command in Linux allows the user to create directories (also referred to as folders in some operating systems ). This command can create multiple directories at once as well as set the permissions for the directories. 
-###### *Syntax:* 
+"mkdir" command in Linux allows the user to create directories (also referred to as folders in some operating systems ). This command can create multiple directories at once as well as set the permissions for the directories.
+###### *Syntax:*
 ```
 $ mkdir [options...] [directories ...]
 $ mkdir NewDirectory
@@ -91,6 +91,7 @@ $ pwd
 /home/root
 ```
 #### mv
+The mv command is used to move files. You can use absolute or relative paths when moving files. You can also change the name of the destination file.
 
 #### rm
 
