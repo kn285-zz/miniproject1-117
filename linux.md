@@ -61,6 +61,13 @@ In case you want to quit vim without saving the file, enter:
 -------------------------------  
 
 #### Home Directory
+Home Directory is the default directory that a user places into when the user logs in. The username is typically where the files are listed under
+```
+/                    # The root of the filesystem
+└── home             # A directory named home
+    └── vagrant      # A directory named vagrant
+        └── myfile   # A file named myfile
+```
 
 #### Tildo
 
