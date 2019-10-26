@@ -6,3 +6,11 @@
 
 This Repository is for IS 117, this will give you an intro on Linux and Git commands as well as background
 information on Git, Docker, automated testing, GitFlow, and continuous integration.
+
+##### *Links*  
+* [Git Tutorial](/git.md)  
+* [Basic Linux Commands](/linux.md)
+* [Change Log](/changelog.md)
+
+##### *Sources*
+* https://www.howtoforge.com/vim-basics
