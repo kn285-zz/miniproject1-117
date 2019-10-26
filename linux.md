@@ -117,3 +117,19 @@ Use this command to skip the confirmation prompt for removing a file:
 $ rm -f /tmp/file01
 ```
 #### history
+"history" is a command that shows the last 500 commands you've entered.
+```
+$ history
+```
+You can use "-c" to clear the history buffer
+```
+$ history -c
+```
+You can use "!!" to rerun the previous command
+```
+$ !!
+```
+You can also use ""!N" where "N" is the number of the command from the history command output.
+```
+$ !5
+```
