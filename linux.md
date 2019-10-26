@@ -91,7 +91,8 @@ $ pwd
 /home/root
 ```
 #### mv
-The mv command is used to move files. You can use absolute or relative paths when moving files. You can also change the name of the destination file.  
+The "mv" command is used to move files. You can use absolute or relative paths when moving files. You can also change the name of the destination file.  
+
 This command is used to move a file.
 ```
 $ mv /home/vagrant/file01 /tmp/file01
@@ -102,4 +103,10 @@ $ cp /home/vagrant/file01 /tmp/newfile
 ```
 #### rm
 
+The "rm" command is used to delete files and directories.  
+Use this command to delete a file:
+```
+$ rm /tmp/file01
+```
+Use this comand to recursively remove all files in a
 #### history
