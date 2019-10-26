@@ -108,5 +108,12 @@ Use this command to delete a file:
 ```
 $ rm /tmp/file01
 ```
-Use this comand to recursively remove all files in a
+Use this command to recursively remove all files in a directory:
+```
+$ rm -r /tmp/dir01
+```
+Use this command to skip the confirmation prompt for removing a file:
+```
+$ rm -f /tmp/file01
+```
 #### history
