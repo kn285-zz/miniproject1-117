@@ -91,8 +91,15 @@ $ pwd
 /home/root
 ```
 #### mv
-The mv command is used to move files. You can use absolute or relative paths when moving files. You can also change the name of the destination file.
-
+The mv command is used to move files. You can use absolute or relative paths when moving files. You can also change the name of the destination file.  
+This command is used to move a file.
+```
+$ mv /home/vagrant/file01 /tmp/file01
+```
+This command is used to move and change the name of the file  
+```
+$ cp /home/vagrant/file01 /tmp/newfile
+```
 #### rm
 
 #### history
